@@ -1,0 +1,41 @@
+@import "../../Theme/Theme.scss";
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+
+.navigation {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-family: 'Odibee Sans';
+  font-size: 28px;
+  background-color: $color_black;
+  background: url("../../assets/images/NavBaggrund.png");
+  background-size: cover;
+  overflow: hidden;
+  height: 9rem;
+
+  img {
+    width: 30%;
+    margin-left: 13rem;
+    margin-top: 2rem;
+    border: 2px solid black;
+  }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 11rem;
+    
+    li {
+      
+      a {
+        text-decoration: none;
+        color: white;
+        margin-right: 25px;
+
+        &:hover {
+          color: $color_brun;
+        }
+      }
+    }
+  }
+}
