@@ -49,6 +49,7 @@ export const Login = () => {
   return (
     <>
       <h1>Login</h1>
+      <h2>indtast dit brugernavn og adgangskode for at logge ind</h2>
           <p>{message}</p>
           {!loginData && !loginData.username ?  
               <form onSubmit={handleSubmit(onSubmit)}>

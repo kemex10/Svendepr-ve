@@ -1,12 +1,11 @@
 import React from 'react'
-import image from './assets/hero_image.png';
 
 export function Frontpage() {
 
   
   return (
     <div>
-<img src={image} height={100} width={100} />
+<h1>Forside</h1>
 </div>
   )
 }

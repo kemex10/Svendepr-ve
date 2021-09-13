@@ -9,7 +9,7 @@ export default function Navigation() {
       <img src={Logo} alt="" />
       <ul>
         <li><Link to="/frontpage">Forside</Link></li>&nbsp;
-        <li><Link to="">Boliger til salg</Link></li>&nbsp;
+        <li><Link to="/Boliger">Boliger til salg</Link></li>&nbsp;
         <li><Link to="/login">Login</Link></li>&nbsp;
       </ul>
     </nav>
